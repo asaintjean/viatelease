@@ -1,0 +1,57 @@
+.jsonTable > .selectRange > select {
+	margin-right: 25px;
+}
+
+.jsonTable > .selectRange > input[type="text"].range {
+	width: 20px;
+}
+
+.jsonTable > .selectRange > span[ng-click] {
+	cursor: pointer;
+}
+
+.jsonTable > .selectRange,
+.jsonTable > table {
+	margin: 10px 2%;
+}
+
+.jsonTable > table {
+	width: 96%;
+}
+
+.jsonTable > table > thead {
+	background: #007aff;
+}
+
+.jsonTable > table > thead > tr > th {
+	border-bottom: 10px solid #007aff;
+	padding: 5px 10px;
+	line-height: 25px;
+}
+
+.jsonTable > table > thead > tr > th > a {
+	cursor: pointer;
+        color: #ffffff;
+}
+
+.jsonTable > table > thead > tr > th > input[type="text"] {
+	width: 100px;
+        color: #880871;
+}
+
+.jsonTable > table > tbody > tr {
+	text-align: center;
+	color: #2c3e50;
+}
+
+.jsonTable > table > tbody > tr:nth-child(2n) {
+	background: #ecf0f1;
+}
+
+.jsonTable > table > tbody > tr > td {
+	padding: 10px;
+}
+
+.jsonTable > table > tbody > tr > td:not(:last-child) {
+	border-right: 1px solid #2c3e50;
+}

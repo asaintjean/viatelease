@@ -48,10 +48,10 @@
 
         <li routerLinkActive="active"><a routerLink="mainListDemandes">Liste des demandes</a></li>
         <li routerLinkActive="active"><a routerLink="mainUtilisateur">Mon compte</a></li>
-        <li routerLinkActive="active"><a routerLink="mainLogOut">Déconnexion</a></li>
+        <li routerLinkActive="active"><a routerLink="mainLogOut">Dï¿½connexion</a></li>
         <li routerLinkActive="active"><a routerLink="mainTableauxBord">Tableau de bord</a></li>
         <li routerLinkActive="active"><a routerLink="mainSimulationDemande">Simulation demande ?</a></li>
-        <li routerLinkActive="active"><a routerLink="mainListReglements">Liste des règlements</a></li>
+        <li routerLinkActive="active"><a routerLink="mainListReglements">Liste des rï¿½glements</a></li>
         <li routerLinkActive="active"><a routerLink="mainListLitiges">Liste des litiges</a></li>
         <li routerLinkActive="active"><a routerLink="login">Login</a></li>
         <li routerLinkActive="active"><a routerLink="mainParc">Mon parc</a></li>
@@ -81,12 +81,15 @@
 
       <a href="editions/MANDAT_SEPA_v1.pdf" target="_blank" class="btn0 btn-navbar0 content0" id="footer__link">Mandat SEPA</a>
       
-      <a href="#/mainContact" class="btn0 btn-navbar0 content0" id="footer__link" *ngIf="user_id!=0"><i class="fa fa-github fa-navbar"></i> Contact1</a>
+      <!-- <a href="#/mainContact" class="btn0 btn-navbar0 content0" id="footer__link" *ngIf="user_id!=0"><i class="fa fa-github fa-navbar"></i> Contact1</a>
                 
-      <a href="#" ui-turn-on="contact" class="btn0 btn-navbar0 content0" id="footer__link" *ngIf="user_id==0"><i class="fa fa-github fa-navbar"></i> Contact0</a>
+      <a href="#" ui-turn-on="contact" class="btn0 btn-navbar0 content0" id="footer__link" *ngIf="user_id==0"><i class="fa fa-github fa-navbar"></i> Contact0</a> -->
+
+      <a href="#/mainContact" class="btn0 btn-navbar0 content0" id="footer__link" ><i class="fa fa-github fa-navbar"></i> Contact1</a>
       <!-- uiIf: false -->
-      <a href="" ui-turn-on="mentionsLegales" class="btn0 btn-navbar0 content0" id="footer__link">Mentions légales</a>
-                &copy; {{ today | date: 'yyyy' }} {{name}} 
+      <a href="" ui-turn-on="mentionsLegales" class="btn0 btn-navbar0 content0" id="footer__link">Mentions lï¿½gales</a>
+                <!-- &copy; {{ today | date: 'yyyy' }} -->
+                 {{name}} 
 
 
 
