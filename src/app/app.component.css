@@ -1,0 +1,243 @@
+
+
+#d3-on_click_icon_cercle_nb-open_sidebarRight{
+  color: #fff;
+  background: #8b1445;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  line-height:50px;
+
+  position: relative;
+  left: 4px;
+  top: 0px;
+  width: 20px; 
+}
+
+#d3-on_click_icon_bar-open_sidebarRight{
+  color: #8b1445;
+  font-size: 22px;
+  vertical-align: sub;
+}
+
+#d3-on_click_message_vosdemandes-open_sidebarRight{
+  font-weight: 500;
+  color: #232124;
+  text-transform: none;
+  background: url(../assets/img/background-left-shadow.png) left top repeat-y #f5f5f5;
+  padding: 0 21px;
+}
+
+#infos_utilisateur {
+  box-sizing: border-box;
+  color: rgb(139, 20, 69);
+  height: 18px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none solid rgb(139, 20, 69);
+  text-size-adjust: 100%;
+  white-space: nowrap;
+  width: 751px;
+  column-rule-color: rgb(139, 20, 69);
+  perspective-origin: 375.5px 9.5px;
+  transform-origin: 375.5px 9.5px;
+  caret-color: rgb(139, 20, 69);
+  border: 0px none rgb(139, 20, 69);
+  font: normal normal bold normal 18px / 18px Roboto, sans-serif;
+  outline: rgb(139, 20, 69) none 0px;
+}
+
+#small_utilisateur {
+  box-sizing: border-box;
+  color: rgb(139, 20, 69);
+  text-align: center;
+  text-decoration: none solid rgb(139, 20, 69);
+  text-size-adjust: 100%;
+  white-space: nowrap;
+  column-rule-color: rgb(139, 20, 69);
+  caret-color: rgb(139, 20, 69);
+  border: 0px none rgb(139, 20, 69);
+  font: normal normal bold normal 15.3px / 18px Roboto, sans-serif;
+  outline: rgb(139, 20, 69) none 0px;
+}
+
+.content-body {
+  /* margin-left: 135px; */
+}
+
+#linefeed {
+  position: absolute;
+  margin-top: 150px;
+}
+
+#header {
+  /* background-color: #F0F3F5;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+  width: 100%; */
+
+  position: fixed;
+  /* background-color: #F0F3F5; */
+  background-color: #fff;
+  height: 50px;
+  position: fixed;
+  top: -10px;
+  z-index: 99;
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: inherit;
+  /*border: 1px solid #cccccc;*/
+
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#footer {
+  /* background-color: #F0F3F5;
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 99;
+  width: 100%; */
+
+  height: 50px;
+  position: fixed;
+  z-index: 99;
+  bottom: 0px;
+  max-width: 1370px;
+  /* margin-right: -30px; */
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  color: #fff;
+  font-size: 11px;
+  text-transform: none;
+  font-weight: bold;
+  background-color: #232124 !important;
+  
+}
+
+#content-body {
+  height: auto;
+  margin: 0px auto;
+  max-width: 100%;
+  min-height: 900px;
+
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+  box-sizing: border-box;
+
+  display: block;
+
+  font-family: 'Roboto', sans-serif;
+  /*font-family:'Roboto', sans-serif;background:#232124;*/
+  /*background-image: 'assets/img/background-app.jpg';*/
+  /*background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);*/
+  /*background:url(assets/img/background-app.jpg);*/
+  /*background:url(assets/img/logo-clear.svg);*/
+  /*background:url(assets/img/background-app.jpg);
+  background:url(assets/img/logo-viatelease.png);*/
+
+
+  /*border: 1px solid #cccccc;*/
+
+}
+.pull-left {
+  float: left;
+}
+
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#top-logo {
+  height: 31px;
+  width: 155px;
+}
+
+/* #notifications {
+  color: blue;
+  float: right;
+} */
+
+notifications[_ngcontent-c0] {
+  float: left !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+
+  padding-top: 12px;
+  padding-left: 13px;
+  background-color: #8b1445;
+
+}
+
+#sidenav, #sidenav-mini {
+  /* height: 100%; */
+  position: fixed;
+  top: 60px;
+  padding-left: 0px;
+  padding-top: 1em;
+  background-color: #2D353C !important;
+}
+
+#content-body {
+  padding-top: 55px;
+}
+
+#minigutter {
+  display:none;
+}
+
+/*
+
+@media screen and (min-width: 40.063em) {
+*/
+
+@media only screen and (max-width: 1000px) {
+
+  #sidegutter {
+    display: none;
+  }
+
+  #minigutter {
+    display: block;
+  }
+
+}
+
+/*
+@media only screen and (max-width: 40em) {
+*/
+@media only screen and (max-width: 400px) {
+
+
+  #sidegutter {
+    display: none;
+  }
+
+  #minigutter {
+    display: block;
+  }
+}

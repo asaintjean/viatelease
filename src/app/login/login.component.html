@@ -1,0 +1,57 @@
+<p>
+  ****Login works!
+</p>
+<div class="topic">&nbsp;<span class="newline">&nbsp;</span></div>
+
+
+
+<div class="alltimesheets ui-g loginform">
+  <!-- <form role="form" ng-submit="deconnexion()" class="ng-pristine ng-valid"> -->
+      <div class="fieldset">
+        <!-- <div *ngIf="message" [ngClass]="{ 'alert': message, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }">{{message.text}}</div> -->
+        <div class="legend"><i class="fa fa-user" aria-hidden="true"></i> Utilisateur i.service</div>
+        <div class="form-group has-success has-feedback">
+            <label>Login</label>
+            <input focus-me="true" type="text" pInputText class="form-control ng-pristine ng-valid needsclick ng-isolate-scope ng-valid-required ng-touched" placeholder="Login utilisateur" required="">
+          </div>
+          <div class="form-group">
+            <label>Mot de passe</label>
+            <input type="password" class="form-control ng-pristine ng-untouched ng-valid needsclick ng-valid-required" pInputText placeholder="Mot de passe" required="">
+          </div>
+
+      </div>
+  <div ng-show="alertLogin" style="color:#8b1445" class="ng-binding ng-hide"><hr><hr></div>
+  <button class="btn btn-default btn-large" pButton type="button"  label="Login"><i class="fa fa-unlock" aria-hidden="true"></i></button>
+  <!-- <button class="btn btn-default btn-large" ng-disabled="formLogin.$invalid"><i class="fa fa-unlock" aria-hidden="true"></i> Login</button> -->
+  
+          
+  <p style="float:right;display:inline"><a href="#" class="lost-password" ui-turn-on="modalLostPassword">Mot de passe oublié ?</a></p>
+
+  
+    <!-- </form> -->
+</div>
+
+
+<div ui-content-for="title">
+	<span>Connexion - Espace Partenaires</span>
+</div>
+
+	
+<div class="hidden-xs col-sm-6" style="z-index:5;" ui-if="1==2">
+  <div >
+  <div style="height: 305px; width:600px;">
+    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+      <img style="margin:auto;">
+      <div class="carousel-caption">
+      </div>
+      </div>
+    </div>
+    </div>
+   </div>
+</div>
+<div class="col-xs-12" style="z-index:1;" ui-if="1==2"><div ></div></div>
+</div>
+
+<div ></div>
+</div>

@@ -1,0 +1,222 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+/* body {
+  background-color: #D9E0E7 !important;
+  margin: 0px;
+  font-size: 1em !important;
+} */
+
+.newline {
+  display:block;
+
+ }
+
+body {
+  font-family:'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-weight: 200;
+  /* background-color: #232124 !important; */
+  /* background-color: #ffffff; */
+  background: url(assets/img/background-app.jpg) repeat-y ;
+  background-size: cover;
+  /*background: linear-gradient(black, white);
+  background-image: url(assets/img/background-app.jpg);
+  /*background: url(assets/img/background-app.jpg) left top repeat-y ; /* #f5f5f5;*/
+
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  position: relative;
+  left: -8px;
+  /*background-color: #ffffff;*/
+  /*border: 4px solid #BF2020;*/
+}
+
+html {
+  max-width: 1400px;
+
+  /*align-self: auto;*/
+  margin: auto;
+  position: relative;
+  left: -2px;
+  
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
+.ui-panel-titlebar {
+  /* background-color: #2F8EE5 !important; */
+  background-color: #7C7E80 !important;
+  color: white !important;
+}
+
+.ui-state-active {
+  background-color: #CCCCCC !important;
+  color: white;
+}
+
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+
+
+
+.ui-menu {
+  width: auto !important;
+  margin: 0px !important;
+  border: none !important;
+  /* background-color: #2D353C !important; */
+  position: relative;
+  float: right;
+
+}
+
+/* .affaires .ui-menuitem-text {
+  color: #555555;
+  background-color: white;
+}
+
+.affaires .ui-menuitem-text:hover {
+  color: #555555;
+  background-color: white;
+} */
+
+.affaires .ui-menuitem {
+  background-color: white;
+}
+
+.affaires .ui-menu {
+  background-color: #07A159;
+  left: -57px;
+  right: -5px;
+  top: -29px;
+}
+
+.ui-menuitem-text:hover {
+  color: white !important;
+}
+
+.ui-menuitem-icon:hover {
+  color: white !important;
+}
+
+.ui-helper-reset {
+  background-color: white;
+  position: absolute;
+  left: -257px;
+  right: -35px;
+  top: -9px;
+
+  /* padding: -20px;
+  top: -20px;
+  margin-top: -10px; */
+
+}
+
+.affaires .ui-helper-reset {
+  background-color: #8F85E4;
+  position: absolute;
+  left: -400px;
+  right: 80px;
+  top: -9px;
+
+  /* padding: -20px;
+  top: -20px;
+  margin-top: -10px; */
+
+}
+
+.ui-button{
+  background-color: #8B1445;
+}
+.ui-menuitem-text {
+  /* color: white !important; */
+  color: grey !important;
+}
+
+.ui-menuitem-icon {
+  color: grey !important;
+  font-size: large !important;
+  margin-right: 1em;
+}
+
+.ui-menuitem-active {
+  background-color: green !important;
+}
+
+.menu-selected {
+  background-color: #8B1445 !important;
+  
+  color: white;
+}
+
+/* Debugging Layouts
+@media screen and (min-width: 64.063em) {
+  .ui-lg-3 {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 40.063em) {
+  .ui-md-6 {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .ui-sm-12 {
+    background-color: palevioletred;
+  }
+}
+*/
+
+/* using Block Element Modifier notations known as BEM */
+a#footer__link:hover {
+  background-color: #232124;
+     color: #8b1445;
+ }
+ 
+ a#footer__link {
+
+bottom: 0px;
+box-sizing: border-box;
+color: #fff;  /* color: rgb(139, 20, 69); */ 
+cursor: pointer;
+left: 0px;
+/* opacity: 0.6; */
+position: relative;
+right: 0px;
+text-align: center;
+text-decoration: none solid rgb(139, 20, 69);
+text-size-adjust: 100%;
+top: 0px;
+touch-action: manipulation;
+vertical-align: middle;
+white-space: nowrap;
+z-index: 2;
+column-rule-color: rgb(139, 20, 69);
+user-select: none;
+caret-color: rgb(139, 20, 69);
+border: 0px none rgb(139, 20, 69);
+border-radius: 0 4px 4px 0;
+/* font: normal normal bold normal 11px / 50px Roboto, sans-serif; */
+margin: 0px 0px 0px -1px;
+outline: rgb(139, 20, 69) none 0px;
+padding: 0px 12px;
+transition: all 0.4s linear 0s;
+
+ }

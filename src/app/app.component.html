@@ -1,0 +1,97 @@
+<!-- header -->
+
+<div class="ui-g ui-g-nopad" id="header" >
+
+
+  <div _ngcontent-c0 class="ui-g-3p" id="notifications" >
+    <!-- <i class="fa fa fa-home"></i> -->
+
+
+
+
+    
+
+  </div>
+  <div class="ui-g-2">
+    <img src="assets/img/logo-viatelease.png" id="top-logo" />
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+<!-- end header -->
+
+
+
+<!-- body -->
+<div class="ui-g ui-g-nopad">
+
+<!-- router -->
+<!-- <div id="content-body" > -->
+    <div class="topic">&nbsp;<span class="newline">&nbsp;</span></div>
+
+
+
+<div _ngcontent-c0="" class="scrollable section" id="v-scrollable" ng2-scrollable="" style="position: relative;">
+
+<h2>Menu: </h2>
+
+        <ul class="nav nav-tabs">
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="accueil">Accueil</a></li>
+        <li routerLinkActive="active"><a routerLink="mainCreateDemande">Demande de financement</a></li>
+
+        <li routerLinkActive="active"><a routerLink="mainListDemandes">Liste des demandes</a></li>
+        <li routerLinkActive="active"><a routerLink="mainUtilisateur">Mon compte</a></li>
+        <li routerLinkActive="active"><a routerLink="mainLogOut">Déconnexion</a></li>
+        <li routerLinkActive="active"><a routerLink="mainTableauxBord">Tableau de bord</a></li>
+        <li routerLinkActive="active"><a routerLink="mainSimulationDemande">Simulation demande ?</a></li>
+        <li routerLinkActive="active"><a routerLink="mainListReglements">Liste des règlements</a></li>
+        <li routerLinkActive="active"><a routerLink="mainListLitiges">Liste des litiges</a></li>
+        <li routerLinkActive="active"><a routerLink="login">Login</a></li>
+        <li routerLinkActive="active"><a routerLink="mainParc">Mon parc</a></li>
+        <li routerLinkActive="active"><a routerLink="mainContact">Contact</a></li>
+        <li routerLinkActive="active"><a routerLink="mainEspaceKDO">Espace KDO</a></li>
+
+    </ul>
+    
+  <router-outlet></router-outlet>
+  <!-- <app-settings></app-settings> -->
+</div>
+  <!-- </div> -->
+<!-- end router -->
+
+</div>
+<!-- body end -->
+
+
+
+<!-- footer -->
+<div class="ui-g ui-g-nopad" id="footer" >
+    <div>
+        
+      <!--  <h2> user_id:{{user_id}}  {{hero.name}} details! id: {{hero.id}} name: <input [(ngModel)]="hero.name" placeholder="name"></h2>-->
+
+        
+
+      <a href="editions/MANDAT_SEPA_v1.pdf" target="_blank" class="btn0 btn-navbar0 content0" id="footer__link">Mandat SEPA</a>
+      
+      <a href="#/mainContact" class="btn0 btn-navbar0 content0" id="footer__link" *ngIf="user_id!=0"><i class="fa fa-github fa-navbar"></i> Contact1</a>
+                
+      <a href="#" ui-turn-on="contact" class="btn0 btn-navbar0 content0" id="footer__link" *ngIf="user_id==0"><i class="fa fa-github fa-navbar"></i> Contact0</a>
+      <!-- uiIf: false -->
+      <a href="" ui-turn-on="mentionsLegales" class="btn0 btn-navbar0 content0" id="footer__link">Mentions légales</a>
+                &copy; {{ today | date: 'yyyy' }} {{name}} 
+
+
+
+    </div>
+  </div>
+  <!-- end footer -->
+
+
